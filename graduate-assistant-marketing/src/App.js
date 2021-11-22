@@ -254,7 +254,7 @@ function App() {
             <div class="text-white well-lg text-center">
               <h4>Go where God wants you</h4>
               <h1>Seminary & Graduate Studies</h1>
-              <div style={{ marginTop: '15px' }}>
+              <div style={{ margin: '15px 0 0 0' }}>
                 <a class="btn btn-alternate btn-icon apply" style={{ marginRight: '5px' }} href="/">Apply Now</a>
                 <a class="btn btn-alternate btn-icon request" style={{ marginLeft: '5px' }} href="/">Request Info</a>
               </div>
@@ -295,7 +295,7 @@ function App() {
         <section>
           <div class="well-lg" style={{ backgroundColor: 'black' }}>
             <div class="majorCenter">
-              <div class="grid-item" style={{ gridColumn: 1 }}>
+              <div class="grid-item grid-item-1">
                 <a href="https://www.pcci.edu/Grad/Academics/Education/MasterOfScienceEdLeadership.aspx">
                   <div class="degree-item">
                     <span class="material-icons">school</span>
@@ -303,7 +303,7 @@ function App() {
                   </div>
                 </a>
               </div>
-              <div class="grid-item" style={{ gridColumn: 2 }}>
+              <div class="grid-item grid-item-2">
                 <a href="https://www.pcci.edu/Grad/Academics/Bible/MasterDivinity.aspx">
                   <div class="degree-item">
                     <span class="material-icons">school</span>
@@ -311,7 +311,7 @@ function App() {
                   </div>
                 </a>
               </div>
-              <div class="grid-item" style={{ gridColumn: 3 }}>
+              <div class="grid-item grid-item-3">
                 <a href="https://www.pcci.edu/Grad/Academics/Business/MasterofBusinessAdmin.aspx">
                   <div class="degree-item">
                     <span class="material-icons">school</span>
@@ -327,7 +327,7 @@ function App() {
             <div class="well-lg text-center">
               <h4>Make a Difference through the</h4>
               <h1>Graduate Assistance Program</h1>
-              <div style={{ marginTop: '15px' }}>
+              <div style={{ margin: '15px 0 0 0' }}>
                 <a class="btn btn-icon apply" style={{ marginRight: '5px' }} href="/">Apply Now</a>
                 <a class="btn btn-icon request" style={{ marginLeft: '5px' }} href="/">Request Info</a>
               </div>

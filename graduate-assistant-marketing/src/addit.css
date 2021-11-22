@@ -23,6 +23,18 @@
    justify-content: center;
 }
 
+.grid-item-1 {
+  grid-column: 1;
+}
+
+.grid-item-2 {
+   grid-column: 2;
+}
+
+.grid-item-3 {
+  grid-column: 3;
+}
+
 .degree-item {
    background-color: white;
    width: 270px;
@@ -55,4 +67,34 @@
    flex-direction: column;
    justify-content: center;
    width: 600px;
+}
+
+@media screen and (max-width: 650px) {
+   .majorCenter {
+      grid-template-columns: auto;
+   }
+
+   .grid-item-1 {
+  grid-column: 1;
+   }
+
+.grid-item-2 {
+   grid-column: 1;
+   }
+
+.grid-item-3 {
+  grid-column: 1;
+   }
+
+   .grid-item {
+      padding: 10px 0;
+   }
+
+   .gaDiv {
+      flex-direction: column;
+   }
+
+   .gaInnerDesc {
+      width: auto;
+   }
 }
