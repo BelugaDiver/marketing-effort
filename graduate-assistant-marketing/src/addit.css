@@ -43,6 +43,11 @@
 .gaDiv {
    background-color: rgb(216, 205, 185);
    display: flex;
+   justify-content: center;
+}
+
+.gaDiv div {
+   margin: 0 5%;
 }
 
 .gaInnerDesc {
@@ -50,5 +55,4 @@
    flex-direction: column;
    justify-content: center;
    width: 600px;
-   padding-right: 20px;
 }

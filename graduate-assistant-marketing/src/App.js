@@ -296,20 +296,28 @@ function App() {
           <div class="well-lg" style={{ backgroundColor: 'black' }}>
             <div class="majorCenter">
               <div class="grid-item" style={{ gridColumn: 1 }}>
-                <div class="degree-item">
-                  <div>Masters of Science</div><div>Educational Leadership</div>
-                </div>
+                <a href="https://www.pcci.edu/Grad/Academics/Education/MasterOfScienceEdLeadership.aspx">
+                  <div class="degree-item">
+                    <span class="material-icons">school</span>
+                    <div>Masters of Science</div><div>Educational Leadership</div>
+                  </div>
+                </a>
               </div>
               <div class="grid-item" style={{ gridColumn: 2 }}>
-                <div class="degree-item">
-                  <div>Masters of Divinity</div>
-                </div>
+                <a href="https://www.pcci.edu/Grad/Academics/Bible/MasterDivinity.aspx">
+                  <div class="degree-item">
+                    <span class="material-icons">school</span>
+                    <div>Masters of Divinity</div>
+                  </div>
+                </a>
               </div>
               <div class="grid-item" style={{ gridColumn: 3 }}>
-                <div class="degree-item">
-
-                  <div>Masters of</div><div>Business Administration</div>
-                </div>
+                <a href="https://www.pcci.edu/Grad/Academics/Business/MasterofBusinessAdmin.aspx">
+                  <div class="degree-item">
+                    <span class="material-icons">school</span>
+                    <div>Masters of</div><div>Business Administration</div>
+                  </div>
+                </a>
               </div>
             </div>
           </div>
