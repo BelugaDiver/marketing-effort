@@ -84,7 +84,7 @@ function App() {
                 </div>
               </li>
               <li class="navigation-item has-submenu">
-                <a class="navigation-link" href="#">Academics</a>
+                <a class="navigation-link" href="/">Academics</a>
                 <div class="navigation-megamenu navigation-submenu" style={{ right: 'auto' }}>
                   <div class="navigation-megamenu-container">
                     <div class="navigation-row">
@@ -114,7 +114,7 @@ function App() {
                 </div>
               </li>
               <li class="navigation-item has-submenu">
-                <a class="navigation-link" href="#">Admissions &amp; Aid</a>
+                <a class="navigation-link" href="/">Admissions &amp; Aid</a>
                 <div class="navigation-megamenu navigation-submenu" style={{ right: 'auto' }}>
                   <div class="navigation-megamenu-container">
                     <div class="navigation-row">
@@ -147,7 +147,7 @@ function App() {
                       <div class="navigation-col">
                         <ul>
                           <li><a href="/Grad/Admissions/Costs/PaymentPlan/">Payment Plan</a></li>
-                          <li><a href="//static.pcci.edu/PCC/DownloadCenter/PDFs/TranscriptRequestGRAD.pdf" target="_blank" rel="noopener">Transcript Request</a></li>
+                          <li><a href="//static.pcci.edu/PCC/DownloadCenter/PDFs/TranscriptRequestGRAD.pdf" rel="noopener">Transcript Request</a></li>
                           <li><a href="/media/catalog/">Catalog</a></li>
                         </ul>
                       </div>
@@ -156,7 +156,7 @@ function App() {
                 </div>
               </li>
               <li class="navigation-item has-submenu">
-                <a class="navigation-link" href="#">Online</a>
+                <a class="navigation-link" href="/">Online</a>
                 <div class="navigation-megamenu navigation-submenu" style={{ right: 'auto' }}>
                   <div class="navigation-megamenu-container">
                     <div class="navigation-row">
@@ -188,7 +188,7 @@ function App() {
                 </div>
               </li>
               <li class="navigation-item has-submenu">
-                <a class="navigation-link" href="#">Resources</a>
+                <a class="navigation-link" href="/">Resources</a>
                 <div class="navigation-megamenu navigation-submenu" style={{ right: 'auto' }}>
                   <div class="navigation-megamenu-container">
                     <div class="navigation-row">
@@ -204,7 +204,7 @@ function App() {
                         <ul>
                           <li><a href="/media/catalog/">Catalog</a></li>
                           <li><a href="/Grad/GradViewbook/default.aspx">PTS-Grad Viewbook</a></li>
-                          <li><a href="//static.pcci.edu/PCC/DownloadCenter/PDFs/Grad-PTS/Grad-Student-Handbook21.pdf" target="_blank" rel="noopener">Graduate Student Handbook</a></li>
+                          <li><a href="//static.pcci.edu/PCC/DownloadCenter/PDFs/Grad-PTS/Grad-Student-Handbook21.pdf" rel="noopener">Graduate Student Handbook</a></li>
 
                         </ul>
                       </div>
@@ -234,7 +234,7 @@ function App() {
                   </div>
                   <div id="search-results" class="search-results-none"></div>
                   <div id="search-results-more" class="search-results-none">
-                    <a href="#" class="cta-link" id="search-term-link">See All Results</a>
+                    <a href="/" class="cta-link" id="search-term-link">See All Results</a>
                   </div>
                 </div>
               </li>
@@ -255,8 +255,8 @@ function App() {
               <h4>Go where God wants you</h4>
               <h1>Seminary & Graduate Studies</h1>
               <div style={{ marginTop: '15px' }}>
-                <a class="btn btn-alternate btn-icon apply" style={{ marginRight: '5px' }}>Apply Now</a>
-                <a class="btn btn-alternate btn-icon request" style={{ marginLeft: '5px' }}>Request Info</a>
+                <a class="btn btn-alternate btn-icon apply" style={{ marginRight: '5px' }} href="/">Apply Now</a>
+                <a class="btn btn-alternate btn-icon request" style={{ marginLeft: '5px' }} href="/">Request Info</a>
               </div>
             </div>
           </div>
@@ -328,8 +328,8 @@ function App() {
               <h4>Make a Difference through the</h4>
               <h1>Graduate Assistance Program</h1>
               <div style={{ marginTop: '15px' }}>
-                <a class="btn btn-icon apply" style={{ marginRight: '5px' }}>Apply Now</a>
-                <a class="btn btn-icon request" style={{ marginLeft: '5px' }}>Request Info</a>
+                <a class="btn btn-icon apply" style={{ marginRight: '5px' }} href="/">Apply Now</a>
+                <a class="btn btn-icon request" style={{ marginLeft: '5px' }} href="/">Request Info</a>
               </div>
             </div>
             <div class="gaInnerDesc text-center">
@@ -361,7 +361,7 @@ function App() {
               <ul class="list-unstyled">
                 <li><a href="/contact/">Contact Us</a></li>
                 <li><a href="tel:+850-478-8496">850-478-8496</a></li>
-                <li><a href="https://www.google.com/maps/place/Pensacola+Christian+College/@30.4731849,-87.2364655,17z/data=!3m1!4b1!4m5!3m4!1s0x8890bf92dfae0c05:0x3b8938693e35d55b!8m2!3d30.4731849!4d-87.2342768" target="_blank" rel="noopener">250 Brent Lane<br />Pensacola, FL, U.S.A.</a></li>
+                <li><a href="https://www.google.com/maps/place/Pensacola+Christian+College/@30.4731849,-87.2364655,17z/data=!3m1!4b1!4m5!3m4!1s0x8890bf92dfae0c05:0x3b8938693e35d55b!8m2!3d30.4731849!4d-87.2342768" target="_blank" rel="noreferrer">250 Brent Lane<br />Pensacola, FL, U.S.A.</a></li>
                 <li><a data-address="info*pcci|edu" href="mailto:info@pcci.edu">info@pcci.edu</a></li>
               </ul>
             </div>
